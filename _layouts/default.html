@@ -10,9 +10,9 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
   <link rel="stylesheet" href="/assets/css/highlight.css">
+  <link rel="stylesheet" href="/assets/css/bigfoot-default.css">
 </head>
 <body>
-
   {% include navigation.html %}
 
   {% if page.profile %}
@@ -28,7 +28,7 @@
   <script src="/assets/js/highlight.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
-  <script>
+  <!--script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -36,6 +36,11 @@
 
     ga('create', '{{ site.google_analytics }}', 'auto');
     ga('send', 'pageview');
+  </script-->
+
+  <script type="text/javascript" src="/assets/js/bigfoot.min.js"></script>
+  <script type="text/javascript">
+      $.bigfoot();
   </script>
 </body>
 </html>
