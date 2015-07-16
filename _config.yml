@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Rhult's Blog
+description: Mostly about programming.
+meta_description: "Rhult's Blog, Mostly about programming."
 
 aboutPage: true
 
@@ -9,14 +9,14 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus_shortname: 'your-disqus-shortname'
+domain_name: 'https://rhult.github.io'
+#google_analytics: 'UA-XXXXXXXX-X'
+disqus_shortname: 'rhult'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'https://rhult.github.io'
+author:         'Richard Hult'
+authorTwitter:  'rhult'
 
 permalink:       /:year/:title/
 
