@@ -18,7 +18,8 @@ url:            'https://rhult.github.io'
 author:         'Richard Hult'
 authorTwitter:  'rhult'
 
-permalink:       /:year/:title/
+#permalink:       /:year/:title/
+permalink:       /:categories/:title
 
 defaults:
     -
